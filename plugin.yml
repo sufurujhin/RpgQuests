@@ -1,0 +1,12 @@
+name: RpgQuests
+version: 1.0
+api-version: 1.13
+main: danieldev.main.Quests
+author: DanielDev
+depend: [Citizens, Vault]
+commands:
+  qnpc:
+    description: /qnpc create [NomeDorank] [nome do Npc]!.
+  quest:
+    description: /quest para ver as suas quests.
+    aliases: [quests]

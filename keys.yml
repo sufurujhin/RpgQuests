@@ -1,0 +1,65 @@
+Keys:
+  Basica:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c§lChave §e§lBásica
+      lore:
+      - §7Uma chave especial
+      - §7Para uma caixa especial
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAAAONiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
+  Rara:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c§lChave §b§lRara
+      lore:
+      - §7Uma chave especial
+      - §7Para uma caixa especial
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAAAONiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
+  Epica:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c§lChave §5§lEpica
+      lore:
+      - §7Uma chave especial
+      - §7Para uma caixa especial
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAAAONiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=
+  Lendaria:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §c§lChave §6§lLendária
+      lore:
+      - §7Uma chave especial
+      - §7Para uma caixa especial
+      enchants:
+        ARROW_INFINITE: 10
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAAAONiYOBg4HLNSwnJd0pNz8xjYDIxYgAAxHmv8RUAAAA=

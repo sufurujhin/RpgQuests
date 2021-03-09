@@ -1,0 +1,784 @@
+Prata:
+  #Adicioe o id do npc das quests(Cada npc de acordo com seu rank)
+  IdNpc: 19
+  #adicione a permição do rank exemplo (deluxetags.tag.Prata1)
+  Permissao: ezranks.rank.Prata1
+  recompensaRank:
+    comandos:
+      - "manuaddp @player rankup.prata1 rankup.prata2 rankup.prata3"
+  Quests:
+    Entrega:
+      Madeira:
+        subrank: EZ1
+        nivel: 1
+        recompensa: 1111
+        items:
+          OAK_PLANKS:
+            qtd: 64
+            nome: Madeira de carvalho refinada
+      Carvao:
+        subrank: EZ2
+        nivel: 1
+        recompensa: 1111
+        items:
+          Coal:
+            qtd: 24
+            nome: Carvão
+      Sementes:
+        subrank: EZ3
+        nivel: 1
+        recompensa: 1111
+        items:
+          Wheat_Seeds:
+            qtd: 16
+            nome: Sementes de trigo
+      Pedregulho:
+        subrank: MD1
+        nivel: 2
+        recompensa: 2222
+        items:
+          OAK_PLANKS:
+            qtd: 64
+            nome: Madeira de carvalho refinada
+      FerroM:
+        subrank: MD2
+        nivel: 2
+        recompensa: 2222
+        items:
+          Iron_Ore:
+            qtd: 24
+            nome: Minério de ferro
+      Trigo:
+        subrank: MD3
+        nivel: 2
+        recompensa: 2222
+        items:
+          Wheat:
+            qtd: 16
+            nome: Trigos
+      Vidro:
+        subrank: HD1
+        nivel: 3
+        recompensa: 3333
+        items:
+          Glass:
+            qtd: 16
+            nome: Vidro
+      Diamante:
+        subrank: HD2
+        nivel: 3
+        recompensa: 3333
+        items:
+          Diamond:
+            qtd: 16
+            nome: Diamantes
+      Pao:
+        subrank: HD3
+        nivel: 3
+        recompensa: 3333
+        items:
+          Bread:
+            qtd: 16
+            nome: Pães
+    MatarMob: 
+    QuebrarBlocos:
+Ouro:
+  IdNpc: 79
+  Permissao: deluxetags.tag.Ouro1
+  recompensaRank:
+    comandos:
+      - "manuaddp @player rankup.ouro1 rankup.ouro2 rankup.ouro3"
+  Quests:
+    Entrega:
+      Obsidian:
+        subrank: EZ1
+        nivel: 1
+        recompensa: 2222
+        items:
+          Obsidian:
+            qtd: 14
+            nome: Obsidian
+      Encantador:
+        subrank: EZ2
+        nivel: 1
+        recompensa: 2222
+        items:
+          Enchanting_Table:
+            qtd: 1
+            nome: Mesa de encantamentos
+          Bookshelf:
+            qtd: 8
+            nome: Estante de livros
+      MadeirasB:
+        subrank: EZ3
+        nivel: 1
+        recompensa: 2222
+        items:
+          Acacia_Log:
+            qtd: 64
+            nome: Acacia bruta
+          Oak_Log:
+            qtd: 64
+            nome: Carvalho bruto
+      VarasB:
+        subrank: MD1
+        nivel: 2
+        recompensa: 4444
+        items:
+          Blaze_Rod:
+            qtd: 16
+            nome: Varas de blaze
+      Cultivador:
+        subrank: MD2
+        nivel: 2
+        recompensa: 4444
+        items:
+          Poppy:
+            qtd: 16
+            nome: Rosas
+          Sunflower:
+            qtd: 16
+            nome: Girasol
+          Dead_Bush:
+            qtd: 16
+            nome: Arbusto morto
+          Red_Mushroom:
+            qtd: 16
+            nome: Cogumelo vermelho
+      Livros:
+        subrank: MD3
+        nivel: 2
+        recompensa: 4444
+        items:
+          Book:
+            qtd: 64
+            nome: Livros
+      BlocosAzuis:
+        subrank: HD1
+        nivel: 3
+        recompensa: 6666
+        items:
+          Lapis_Block:
+            qtd: 32
+            nome: Bloco de lapis-lazuli
+      Diamante:
+        subrank: HD2
+        nivel: 3
+        recompensa: 6666
+        items:
+          Red_Sandstone:
+            qtd: 16
+            nome: Arenito vermelho
+          Packed_Ice:
+            qtd: 16
+            nome: Gelo compactado
+          Mycelium:
+            qtd: 16
+            nome: Micélio
+          Grass_Block:
+            qtd: 16
+            nome: Bloco de grama
+          Podzol:
+            qtd: 16
+            nome: Podzol
+      CabecadeWither:
+        subrank: HD3
+        nivel: 3
+        recompensa: 6666
+        items:
+          Wither_Skeleton_Skull:
+            qtd: 1
+            nome: Cabeça de Wither
+    MatarMob: 
+    QuebrarBlocos:
+Ak:
+  IdNpc: 67
+  Permissao: deluxetags.tag.Ak1
+  recompensaRank:
+    comandos:
+      - "manuaddp @player rankup.ak1 rankup.ak2 rankup.ak3"
+  Quests:
+    Entrega:
+      CarvaoB:
+        subrank: EZ1
+        nivel: 1
+        recompensa: 4444
+        items:
+          Coal_Block:
+            qtd: 48
+            nome: Blocos de carvão
+      Bacalhau:
+        subrank: EZ2
+        nivel: 1
+        recompensa: 4444
+        items:
+          Cod:
+            qtd: 64
+            nome: Bacalhau cru
+      FazendeiroA:
+        subrank: EZ3
+        nivel: 1
+        recompensa: 4444
+        items:
+          Golden_Carrot:
+            qtd: 128
+            nome: Cenoura dourada
+          Wheat:
+            qtd: 128
+            nome: Trigo
+          Beetroot:
+            qtd: 128
+            nome: Beterraba
+      DiamanteB:
+        subrank: MD1
+        nivel: 2
+        recompensa: 8888
+        items:
+          Diamond_Block:
+            qtd: 16
+            nome: Blocos de diamante
+      PescadorA:
+        subrank: MD2
+        nivel: 2
+        recompensa: 8888
+        items:
+          Cod:
+            qtd: 40
+            nome: Bacalhau cru
+          Salmon:
+            qtd: 40
+            nome: Salmão cru
+          Pufferfish:
+            qtd: 5
+            nome: Baiacu
+      FazendeiroB:
+        subrank: MD3
+        nivel: 2
+        recompensa: 8888
+        items:
+          Cocoa_Beans:
+            qtd: 128
+            nome: Sementes de cacau
+          Glistering_Melon_Slice:
+            qtd: 128
+            nome: Fatia de melancia reluzente
+          Nether_Wart:
+            qtd: 128
+            nome: Fungo de nether
+      EsmeraldaO:
+        subrank: HD1
+        nivel: 3
+        recompensa: 13333
+        items:
+          Emerald_Ore:
+            qtd: 16
+            nome: Minério de esmeralda
+      PescadorB:
+        subrank: HD2
+        nivel: 3
+        recompensa: 13333
+        items:
+          Tropical_Fish:
+            qtd: 7
+            nome: Peixe palhaço
+      FazendeiroC:
+        subrank: HD3
+        nivel: 3
+        recompensa: 13333
+        items:
+          Pumpkin_Seeds:
+            qtd: 128
+            nome: Sementes de abóbora
+          Melon_Seeds:
+            qtd: 128
+            nome: Sementes de melancia
+          Potato:
+            qtd: 128
+            nome: Batata
+    MatarMob: 
+    QuebrarBlocos:
+            
+Xerife:
+  IdNpc: 68
+  Permissao: deluxetags.tag.Xerife
+  GeralPermissao:
+    - "deluxetags.tag.Xerife"
+  recompensaRank:
+    comandos:
+      - "manuaddp @player rankup.xerife1 rankup.xerife2 rankup.xerife3"
+  Quests:
+    Entrega:
+      FerreiroA:
+        subrank: EZ2
+        nivel: 1
+        recompensa: 5333
+        items:
+          Wooden_Sword:
+            qtd: 1
+            nome: Espada de madeira
+          Stone_Sword:
+            qtd: 1
+            nome: Espada de pedra
+          Golden_Sword:
+            qtd: 1
+            nome: Espada de ouro
+          Iron_Sword:
+            qtd: 1
+            nome: Espada de ferro
+          Diamond_Sword:
+            qtd: 1
+            nome: Espada de diamante
+      FazendeiroA:
+        subrank: EZ3
+        nivel: 1
+        recompensa: 5333
+        items:
+          Tnt:
+            qtd: 64
+            nome: TnT
+      Ossos:
+        subrank: MD2
+        nivel: 2
+        recompensa: 10666
+        items:
+          Bone:
+            qtd: 576
+            nome: Ossos
+      Trilhos:
+        subrank: MD3
+        nivel: 2
+        recompensa: 10666
+        items:
+          Rail:
+            qtd: 192
+            nome: Trilhos
+      WitherE:
+        subrank: HD2
+        nivel: 3
+        recompensa: 16000
+        items:
+          Nether_Star:
+            qtd: 3
+            nome: Estrela do nether
+      TrilhosA:
+        subrank: HD3
+        nivel: 3
+        recompensa: 16000
+        items:
+          Detector_rail:
+            qtd: 64
+            nome: Trilho detector
+          Activator_rail:
+            qtd: 64
+            nome: Trilho ativador
+          Powered_rail:
+            qtd: 64
+            nome: Trilho elétrico
+    MatarMob:
+      Zombie:
+        subrank: EZ1
+        nivel: 1
+        recompensa: 5333
+        items:
+          Zombie:
+            qtd: 100
+            nome: Zumbi
+      Creeper:
+        subrank: MD1
+        nivel: 2
+        recompensa: 10666
+        items:
+          Creeper:
+            qtd: 100
+            nome: Creeper
+      PorcoZumbi:
+        subrank: HD1
+        nivel: 3
+        recompensa: 16000
+        items:
+          PIG_ZOMBIE:
+            qtd: 100
+            nome: Homem-porco zumbi            
+Aguia:
+  IdNpc: 69
+  Permissao: deluxetags.tag.Aguia
+  recompensaRank:
+    comandos:
+      - "manuaddp @player rankup.xerife1 rankup.xerife2 rankup.xerife3"
+  Quests:
+    Entrega:
+      EndA:
+        subrank: EZ1
+        nivel: 1
+        recompensa: 15555
+        items:
+          End_Stone:
+            qtd: 256
+            nome: Pedra do end
+          Chiseled_Stone_Bricks:
+            qtd: 256
+            nome: Tijolos de pedra talhados
+          Ender_Eye:
+            qtd: 64
+            nome: Olho do ender
+      PocaoA:
+        subrank: EZ2
+        nivel: 1
+        recompensa: 15555
+        items:
+          Brewing_Stand:
+            qtd: 30
+            nome: Suporte de poções
+      EndB:
+        subrank: EZ3
+        nivel: 1
+        recompensa: 15555
+        items:
+          Ender_Eye:
+            qtd: 64
+            nome: Olho do ender
+          Ender_Pearl:
+            qtd: 512
+            nome: Pérola do fim
+      EndC:
+        subrank: MD1
+        nivel: 2
+        recompensa: 31111
+        items:
+          Shulker_Bix:
+            qtd: 1
+            nome: Caixa de shulker
+          Chorus_Fruit:
+            qtd: 64
+            nome: Fruta do coro
+      FungosB:
+        subrank: MD2
+        nivel: 2
+        recompensa: 31111
+        items:
+          Nether_Wart_Block:
+            qtd: 576
+            nome: Blocos de fungo do nether
+      EndD:
+        subrank: MD3
+        nivel: 2
+        recompensa: 31111
+        items:
+          End_Crystal:
+            qtd: 10
+            nome: Cristais do fim
+      EndE:
+        subrank: HD1
+        nivel: 3
+        recompensa: 46666
+        items:
+          Dragon_Breath:
+            qtd: 64
+            nome: Bafo do dragão
+      PocaoB:
+        subrank: HD2
+        nivel: 3
+        recompensa: 46666
+        items:
+          Pufferfish:
+            qtd: 64
+            nome: Baiacu
+          Phantom_Membrane:
+            qtd: 64
+            nome: Membrana de phantom
+          Golden_Carrot:
+            qtd: 64
+            nome: Cenoura dourada
+          Blaze_Powder:
+            qtd: 64
+            nome: Pó de blaze
+          Ghast_Tear:
+            qtd: 64
+            nome: Lágrima de ghast
+          Magma_Cream:
+            qtd: 64
+            nome: Creme de magma
+          Rabbit_Foot:
+            qtd: 64
+            nome: Pé de coelho
+          Fermented_Spider_Eye:
+            qtd: 64
+            nome: Olho de aranha fermentado
+          Glistering_Melon_Slice:
+            qtd: 64
+            nome: Fatia de melancia reluzente
+      EndF:
+        subrank: HD3
+        nivel: 3
+        recompensa: 46666
+        items:
+          Elytra:
+            qtd: 1
+            nome: Elytra
+          Popped_Chorus_Fruit:
+            qtd: 64
+            nome: Fruta do coro estourada
+    MatarMob: 
+    QuebrarBlocos:
+Supremo:
+  IdNpc: 70
+  Permissao: deluxetags.tag.Supremo
+  recompensaRank:
+    comandos:
+      - "manuaddp @player rankup.supremo1 rankup.supremo2 rankup.supremo3"
+  Quests:
+    Entrega:
+      CoraisA:
+        subrank: EZ1
+        nivel: 1
+        recompensa: 20000
+        items:
+          Tube_Coral:
+            qtd: 64
+            nome: Coral-de-tubo
+          Horn_Coral:
+            qtd: 64
+            nome: Coral-de-chifre
+          Fire_Coral:
+            qtd: 64
+            nome: Coral-de-fogo
+          Bubble_Coral:
+            qtd: 64
+            nome: Coral-de-bolha
+          Brain_Coral:
+            qtd: 64
+            nome: Coral-de-cérebro
+      EscavarA:
+        subrank: EZ2
+        nivel: 1
+        recompensa: 20000
+        items:
+          Music_Disc_13:
+            qtd: 3
+            nome: Disco de música 13
+          Music_Disc_Cat:
+            qtd: 3
+            nome: Disco de música cat
+      SilkA:
+        subrank: EZ3
+        nivel: 1
+        recompensa: 20000
+        items:
+          Redstone_Ore:
+            qtd: 192
+            nome: Minério de redstone
+          Coal_Ore:
+            qtd: 192
+            nome: Minério de carvão
+      CoraisB:
+        subrank: MD1
+        nivel: 2
+        recompensa: 40000
+        items:
+          Tube_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-tubo
+          Horn_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-chifre
+          Fire_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-fogo
+          Bubble_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-bolha
+          Brain_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-cérebro
+      EscavarB:
+        subrank: MD2
+        nivel: 2
+        recompensa: 40000
+        items:
+          Gravel:
+            qtd: 192
+            nome: Cascalho
+          Grass_Block:
+            qtd: 192
+            nome: Grama
+          Sand:
+            qtd: 192
+            nome: Areia
+      SilkB:
+        subrank: MD3
+        nivel: 2
+        recompensa: 40000
+        items:
+          Lapis_Ore:
+            qtd: 192
+            nome: Minério de lápis-lazúli
+          Nether_Quartz_Ore:
+            qtd: 192
+            nome: Minério de quartzo
+      CoraisC:
+        subrank: HD1
+        nivel: 3
+        recompensa: 60000
+        items:
+          Dead_Tube_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-tubo morto
+          Dead_Horn_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-chifre morto
+          Dead_Fire_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-fogo morto
+          Dead_Bubble_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-bolha morto
+          Dead_Brain_Coral_Block:
+            qtd: 64
+            nome: Bloco de Coral-de-cérebro morto
+      EscavarC:
+        subrank: HD2
+        nivel: 3
+        recompensa: 60000
+        items:
+          Name_Tag:
+            qtd: 32
+            nome: Nametag
+          Cobweb:
+            qtd: 16
+            nome: Teia de aranha
+      SilkC:
+        subrank: HD3
+        nivel: 3
+        recompensa: 60000
+        items:
+          Emerald_Ore:
+            qtd: 45
+            nome: Minério de esmeralda
+          Diamond_Ore:
+            qtd: 192
+            nome: Minério de diamante
+    MatarMob: 
+    QuebrarBlocos:
+Global:
+  IdNpc: 71
+  Permissao: deluxetags.tag.Global
+  recompensaRank:
+    comandos:
+      - "manuaddp @player rankup.global1 rankup.global2 rankup.global3"
+  Quests:
+    Entrega:
+      MarA:
+        subrank: EZ1
+        nivel: 1
+        recompensa: 13333
+        items:
+          NAUTILUS_SHELL:
+            qtd: 1
+            nome: Concha de náutilo
+      KeysA:
+        subrank: EZ2
+        nivel: 1
+        recompensa: 26666
+        items:
+          Basica:
+            qtd: 50
+            nome: Keys básicas
+          Golden_Apple:
+            qtd: 1152
+            nome: Maçãs douradas
+      BossA:
+        subrank: EZ3
+        nivel: 1
+        recompensa: 26666
+        items:
+          Soul_Sand:
+            qtd: 576
+            nome: Areia de almas
+          Nether_Star:
+            qtd: 5
+            nome: Estrela do nether
+      MarB:
+        subrank: MD1
+        nivel: 2
+        recompensa: 26666
+        items:
+          Hearth_Of_The_Sea:
+            qtd: 1
+            nome: Coração do mar
+      KeysB:
+        subrank: MD2
+        nivel: 2
+        recompensa: 53333
+        items:
+          Rara:
+            qtd: 30
+            nome: Keys raras
+          Epica:
+            qtd: 10
+            nome: Keys epicas
+          Saddle:
+            qtd: 9
+            nome: Sela
+      BossB:
+        subrank: MD3
+        nivel: 2
+        recompensa: 53333
+        items:
+          Totem_Of_Undying:
+            qtd: 1
+            nome: Totem da imortalidade
+      MarC:
+        subrank: HD1
+        nivel: 3
+        recompensa: 40000
+        items:
+          Conduit:
+            qtd: 1
+            nome: Aqueduto
+      KeysC:
+        subrank: HD2
+        nivel: 3
+        recompensa: 80000
+        items:
+          Lendaria:
+            qtd: 5
+            nome: Keys lendárias
+          Diamond_Horse_Armor:
+            qtd: 3
+            nome: Armadura de diamante para cavalo
+      BossC:
+        subrank: HD3
+        nivel: 3
+        recompensa: 80000
+        items:
+          Dragon_Egg:
+            qtd: 1
+            nome: Ovo do dragão
+          Ender_Eye:
+            qtd: 576
+            nome: Olho do ender
+    MatarMob:
+      Vindicator:
+        subrank: EZ1
+        nivel: 1
+        recompensa: 13333
+        items:
+          Vindicator:
+            qtd: 25
+            nome: Vindicator
+      Enderman:
+        subrank: MD1
+        nivel: 2
+        recompensa: 26666
+        items:
+          Enderman:
+            qtd: 100
+            nome: Enderman
+      Fantasmas:
+        subrank: HD1
+        nivel: 3
+        recompensa: 40000
+        items:
+          Creeper:
+            qtd: 35
+            nome: Fantasmas

@@ -1,0 +1,82 @@
+ConfigQuebrarBlocos:
+  msgDelay: 5
+ConfigMatarMobs:
+  msgDelay: 5
+
+Quests:
+  TodasPermissoes:
+    - "ezranks.rank.Prata1"
+    - "deluxetags.tag.Ouro1"
+    - "deluxetags.tag.Ak1"
+    - "deluxetags.tag.Xerife"
+    - "deluxetags.tag.Aguia"
+    - "deluxetags.tag.Supremo"
+    - "deluxetags.tag.Global"
+  NomeInventario: "&6Inventário de Quests"
+  NomeItemQuest: "&l&fQuest &b<rank> &d<subrank>"
+  CorNomeItensMobs: "&6"
+  TamanhoInventarioQuest: 54
+  Paineis:
+    - "0:cyan_stained_glass_pane"
+    - "1:cyan_stained_glass_pane"
+    - "2:cyan_stained_glass_pane"
+    - "3:cyan_stained_glass_pane"
+    - "4:cyan_stained_glass_pane"
+    - "5:cyan_stained_glass_pane"
+    - "6:cyan_stained_glass_pane"
+    - "7:cyan_stained_glass_pane"
+    - "8:cyan_stained_glass_pane"
+    - "45:cyan_stained_glass_pane"
+    - "46:cyan_stained_glass_pane"
+    - "47:cyan_stained_glass_pane"
+    - "48:cyan_stained_glass_pane"
+    - "49:cyan_stained_glass_pane"
+    - "50:cyan_stained_glass_pane"
+    - "51:cyan_stained_glass_pane"
+    - "52:cyan_stained_glass_pane"
+    - "53:cyan_stained_glass_pane"
+  LoresQuestMatar:
+    descricao:
+      - "&l&7Os/(As) &6<mobs>'s "
+      - "&7estão causando alvoroço no "
+      - "&l&7vilarejo, vá exterminar o mal."
+    missao: "&l&3Missão: Matar &l&6"
+  LoresQuestEntregar:
+    descricao:
+      - "&l&7Estou fazendo uma construção,"
+      - "&l&7e preciso de recursos"
+    missao: "&l&3Missão: Entregar &l&6"
+  LoresQuestQuebrar:
+    descricao:
+      - "&l&7Estou precisando construir uma mina,"
+      - "&l&7e preciso que você vá demolir"
+      - "&l&7umas regiões."
+    missao: "&l&3Missão: Quebrar blocos &l&6"
+recompensa: "&l&4Recompensa: &l&f<money> &l&6money's"
+InvetarioDePergunta:
+  tamanho: 9
+  pergunta: "&5&lDeseja aceitar a missão?"
+  sim:
+    id: lime_stained_glass_pane
+    display: "&d&lSim"
+    lores:
+      - ' '
+      - '&4Cique para aceitar a missão'
+  nao:
+    id: red_stained_glass_pane
+    display: "&5&lNão"
+    lores:
+      - ' '
+      - '&7Cique para recusar a missão'
+Mensagens:
+  RecusouAMissao: "&l&6[Quest] Você Recusou a missao <quest>!"
+  AceitarAMissao: "&l&6[Quest] Você Aceitou a missao <quest>!"
+  RecompensaMoney: "&l&6[Quest] Foram creditados <money> em money como recompensa pela missão <quest>!"
+  Completada: "&l&6[Quest] Você já completou esta missão!"
+  Concluiu: "&l&6[Quest] Você completou a missão <quest>!"
+  QuebrarBlocos: "&l&6[Quest] Você quebrou x<qtd> <item> da missão!"
+  MatouMobs: "&l&6[Quest] Você matou x<qtd> <item> da missão!"
+  MaterialEntregues: "&l&6[Quest] Você entregou <qtd> <item>"
+  MaterialJaEntregue: "&l&6[Quest] Este item ja foi entregue, <qtd> <item>!"
+  NaoHaQuestsDisponivel: "&l&6[Quest] Não há mais missôes!"
+  
